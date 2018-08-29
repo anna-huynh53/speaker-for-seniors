@@ -1,3 +1,14 @@
+"""
+Create virtual environment with:
+    virtualenv env
+    source env/bin/activate
+Make sure Google credentials are set:
+    export GOOGLE_APPLICATION_CREDENTIALS=
+    "/home/anna/Documents/speaker-for-seniors/speaker-for-seniors-9f5d66f6c57b.json"
+Example usage:
+    python speaker.py --audio-file-path resources/filename.raw 
+"""
+
 #!/usr/bin/env python
 
 import argparse
@@ -122,7 +133,7 @@ def sort_query(result):
     
     if (query_intent == 'event.detect'):
         f = open("queries.txt", "a")
-        f.write(query_text + timestamp)
+        f.write(query_text + " " + timestamp + "\n")
     #else if (intent == 'event.question')
        
     return
