@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "speaker-for-seniors",
+  "private_key_id": "9f5d66f6c57b7b3d2e8c19b924693f96301bf233",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCHcY2SKiYZ9+q2\n/X4U7ZggR5Kkb+fCo9jBX8Y1Hh2VAlV8L1f1YR+u7r0GYGuQ6KwdaVRll+ttYosP\nvFVn4LsgYc7KfQhbfL4vY+gyEsP2JP91uH9PguElXaaoxNfoI1BdpkabdP287f6L\n5h3yTq4E9zMWUniDB7Qf2XnSP9w5ZkR3hGBvlfjO5xd3zaVlQASiiljVEtFglGmW\nAWJqFS5xxvDfxKNx8WOdHNe1WHH+RkQb4BPI/FdD55btqqOC1jn1gsueSqwvdFQ2\nYuGAYn+ALV5aXVDy1vAtETz1zsfz4MdpowawEm1+ySsVg1BuwLlrQc6kVJ7QhByz\nP4c1fXrbAgMBAAECgf8/XBZIGm+FSKtjMNNDDPh/9VMrdMeavp1alr/chxHL7+jT\nBvrvIx1iY+0mae1G9jIgE8MpMRfQF3i0TdAMieUOd8inp6Kyl0WFU4QNZO0a+km6\nDacaTMQGEjqtjLhPFrmp4lWwXBUjp/dZgdtF8CIgKTqb6dP5+3haACQdvhJvk65s\nXRdBRO0A8yhQAw6yQ9sIcpdlc9S1RFoGe7DejfsP8iHEc44QUWPTW4ltlRYrqcV+\n3rxYNBmYxXE7GHp7dpB7UCtcHBvca2oSfWrTWUmYY6vSMXAXWJEGLtYSCxB/Wa/Y\nIVui7DykgDZA/3r8ewP/Jymt5zlyZTEIpysNgqECgYEAv4QqIq/b694l99wVpmiz\njG3K7CtU63LrHSKJFP/i0ee1ofapxKFJ/g0lOEdK65Uog9N9IlDllKYVMVym8d5J\n3SxpsW8YM5TCnfq2yHzm6p/N3OntwhaCfWt+bD8f8JTM0rwiIZfStcz7zyuAL2gu\n8j0NnmeSs90mA7kxI0de1qECgYEAtQws5IH4//00dPNlynlXCgdz+Vlsuyr8crN2\n1RriRoQOU/OdfqYsJxxXKjHaGSeY8XILDI48l9zaSJyo8hg6mqa60F7pVq2JVQxU\nSvifZ70e5ds+DVoes0FUkmyM1sPp0PW4OZp5N3KpHbagS7iROXD3SmaDtDYNDyxJ\noTz0K/sCgYEAve0y4B1oyvwOyUSQj+wri2tin13FpI3dzpHuQk4Vwba5cPqul9qg\nB3s/2xUQnprYiAtXgI2bcBRY1hAdW6XnuJiP5K/Y32Z6rrLxS9haJHoAbUHsUNuD\n4x+US4M6iJr4mVCLxKbNBxBW9LgeMmVukTqs49exLAB3759btLHVwqECgYBf2qRi\nD1ZP4jVFviAkhP3KN4v1dp0Us3uZFt9RkLxAbWZQmGjIRx6VTnHvyxkXvFlDbAfh\ni+UU2j9PtnHUS3OrsZ6y960+0P4m4zI1x1BOUljrhZpi41XhvjMSmxouEufWVGJH\nTTvkWXakXq6bqIprCR5Ea+ZLIVrkr6QEFAuKxQKBgDDSHN2iCQ+QrCMBQ4uB+bpc\nZBbyjv72iP0gaxQxuPqDQixK710ZOzj2lcFomDqFNzV4wleZhC7367dioQEL3sdt\nzMBsQ6l2fkYivOj72qLvXasc861viG7vFhC1x6Jurul2cNHCHUL+CKaFcKSyGzNw\nt2yqyIvvFLIfDEojSHTQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-dvvhcn@speaker-for-seniors.iam.gserviceaccount.com",
+  "client_id": "114477696243377872173",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-dvvhcn%40speaker-for-seniors.iam.gserviceaccount.com"
+}

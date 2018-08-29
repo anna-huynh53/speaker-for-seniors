@@ -1,0 +1,2 @@
+google-cloud-speech==0.35.0
+dialogflow==0.5.1
