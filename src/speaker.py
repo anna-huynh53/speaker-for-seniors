@@ -177,8 +177,9 @@ def sort_query(result):
     n=0
     if (query_intent == 'event.detect'):
         filename_entry = 'entry/' + str(n) +'.txt'
-        while os.path.isfile(filename_entry):
+        if os.path.isfile(filename_entry):
             n+=1
+            
         f = open(filename_entry, 'w+')
         f.write(query_text)
         f.close()
@@ -186,7 +187,7 @@ def sort_query(result):
         f = open(filename_time, 'w+')
         f.write(timestamp)
         f.close()
-        result = query_fulfillment
+        response = query_fulfillment
     elif (query_intent == 'event.question'):
         for filename in os.listdir('entry'):
             if filename.endswith('.txt'): 
@@ -206,6 +207,7 @@ def sort_query(result):
                         diff = datetime.strptime(query_time, fmt)\
                                - datetime.strptime(event_time, fmt)
                         minutes = diff.seconds / 60
+                        print diff.seconds
                         response = "<speak>" + response + ", you did it" + str(minutes) + " minutes ago" + "</speak>"
                         break
             
