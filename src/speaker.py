@@ -3,8 +3,7 @@ Create virtual environment with:
     virtualenv env
     source env/bin/activate
 Make sure Google credentials are set:
-    export GOOGLE_APPLICATION_CREDENTIALS=
-    "/home/anna/Documents/speaker-for-seniors/speaker-for-seniors-9f5d66f6c57b.json"
+    export GOOGLE_APPLICATION_CREDENTIALS="/home/anna/Documents/speaker-for-seniors/speaker-for-seniors-9f5d66f6c57b.json"
 Install requirements:
     pip install -r requirements.txt
 Example usage:
@@ -283,8 +282,8 @@ if __name__ == '__main__':
         args.language_code)
         
     synthesize_ssml(sort_query(parse))
-    command = 'totem --play output.mp3'
-    process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+    #command = 'totem --play output.mp3'
+    #process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 
     
 
